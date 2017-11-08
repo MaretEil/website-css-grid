@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-
 /*removing browser default styles*/
 
 * {
@@ -66,7 +65,7 @@ header.line {
     margin-top: 13px;
 }
 
-.watch-info p{
+.watch-info p {
     font-size: 0.85em;
     font-weight: 500;
     margin-top: 2px;
@@ -87,18 +86,17 @@ header.line {
     border-radius: 3px;
 }
 
-.buy-button p{
+.buy-button p {
     font-size: 0.9em;
     font-weight: 300;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-
-@media screen and (min-width : 0px) {
+@media screen and (min-width: 0px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-template-rows: auto;
         margin-top: 30px;
         justify-content: center;
@@ -118,11 +116,11 @@ header.line {
     }
 }
 
-
-@media screen and (min-width : 400px) {
+@media screen and (min-width: 400px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
     }
+
     .watch {
         width: 47vw;
     }
@@ -132,9 +130,9 @@ header.line {
     }
 }
 
-@media screen and (min-width : 600px) {
+@media screen and (min-width: 600px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
         margin-top: 54px;
     }
 
@@ -151,7 +149,7 @@ header.line {
     }
 }
 
-@media screen and (min-width : 1200px) {
+@media screen and (min-width: 1200px) {
     body {
         max-width: 1200px;
     }
@@ -165,7 +163,6 @@ header.line {
     }
 
 }
-
 
 /*Footer*/
 
@@ -184,7 +181,7 @@ footer p {
 }
 
 footer p a {
-    text-decoration:none;
+    text-decoration: none;
     color: #A4A4A4;
 }
 
